@@ -13,6 +13,13 @@
 		703B13B3284E0AD500B826BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703B13B1284E0AD500B826BF /* Main.storyboard */; };
 		703B13B5284E0AD800B826BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 703B13B4284E0AD800B826BF /* Assets.xcassets */; };
 		703B13B8284E0AD800B826BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703B13B6284E0AD800B826BF /* LaunchScreen.storyboard */; };
+		707A9911284E0F2800118783 /* МИ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A990A284E0F2800118783 /* МИ.mp3 */; };
+		707A9912284E0F2800118783 /* ЛЯ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A990B284E0F2800118783 /* ЛЯ.mp3 */; };
+		707A9913284E0F2800118783 /* РЕ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A990C284E0F2800118783 /* РЕ.mp3 */; };
+		707A9914284E0F2800118783 /* СИ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A990D284E0F2800118783 /* СИ.mp3 */; };
+		707A9915284E0F2800118783 /* СОЛЬ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A990E284E0F2800118783 /* СОЛЬ.mp3 */; };
+		707A9916284E0F2800118783 /* ДО.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A990F284E0F2800118783 /* ДО.mp3 */; };
+		707A9917284E0F2800118783 /* ФА.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 707A9910284E0F2800118783 /* ФА.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		703B13B4284E0AD800B826BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		703B13B7284E0AD800B826BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		703B13B9284E0AD800B826BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707A990A284E0F2800118783 /* МИ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "МИ.mp3"; sourceTree = "<group>"; };
+		707A990B284E0F2800118783 /* ЛЯ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ЛЯ.mp3"; sourceTree = "<group>"; };
+		707A990C284E0F2800118783 /* РЕ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "РЕ.mp3"; sourceTree = "<group>"; };
+		707A990D284E0F2800118783 /* СИ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "СИ.mp3"; sourceTree = "<group>"; };
+		707A990E284E0F2800118783 /* СОЛЬ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "СОЛЬ.mp3"; sourceTree = "<group>"; };
+		707A990F284E0F2800118783 /* ДО.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ДО.mp3"; sourceTree = "<group>"; };
+		707A9910284E0F2800118783 /* ФА.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ФА.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,23 @@
 				703B13B4284E0AD800B826BF /* Assets.xcassets */,
 				703B13B6284E0AD800B826BF /* LaunchScreen.storyboard */,
 				703B13B9284E0AD800B826BF /* Info.plist */,
+				707A9909284E0F2800118783 /* Sound */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		707A9909284E0F2800118783 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				707A990A284E0F2800118783 /* МИ.mp3 */,
+				707A990B284E0F2800118783 /* ЛЯ.mp3 */,
+				707A990C284E0F2800118783 /* РЕ.mp3 */,
+				707A990D284E0F2800118783 /* СИ.mp3 */,
+				707A990E284E0F2800118783 /* СОЛЬ.mp3 */,
+				707A990F284E0F2800118783 /* ДО.mp3 */,
+				707A9910284E0F2800118783 /* ФА.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707A9917284E0F2800118783 /* ФА.mp3 in Resources */,
+				707A9912284E0F2800118783 /* ЛЯ.mp3 in Resources */,
+				707A9916284E0F2800118783 /* ДО.mp3 in Resources */,
+				707A9913284E0F2800118783 /* РЕ.mp3 in Resources */,
+				707A9911284E0F2800118783 /* МИ.mp3 in Resources */,
 				703B13B8284E0AD800B826BF /* LaunchScreen.storyboard in Resources */,
+				707A9915284E0F2800118783 /* СОЛЬ.mp3 in Resources */,
 				703B13B5284E0AD800B826BF /* Assets.xcassets in Resources */,
 				703B13B3284E0AD500B826BF /* Main.storyboard in Resources */,
+				707A9914284E0F2800118783 /* СИ.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +329,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +358,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
